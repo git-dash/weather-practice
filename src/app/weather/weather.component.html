@@ -1,0 +1,15 @@
+<p>
+  Weather Description
+</p>
+
+<button (click)="goBack()">go back</button>
+<br>
+<div *ngIf='weather!=null'>
+
+  {{weather | json}}
+</div>
+
+<div *ngIf='weather==null'>
+
+  No weather Data.
+</div>
