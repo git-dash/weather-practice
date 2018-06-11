@@ -1,2 +1,3 @@
 # weather-practice
-Simple App to get Weather Data
+Simple App to get Weather Data.
+
